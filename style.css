@@ -146,6 +146,8 @@ ul{
       width:150px;
       height:80px;
       text-align: center;
+  }
+  #collapseTable{
       border-collapse: collapse;
   }
   #marginLeftRanking{
