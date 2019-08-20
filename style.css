@@ -1,0 +1,256 @@
+.upperBlock{
+    width:100%;
+    height:400px;
+    background: white;
+}
+.middleBlock{
+    margin-top: -1%;
+    height: 430px;
+    background: white;
+
+}
+.historyBlock{
+    margin-top: 1%;
+}
+.iconsHockey{
+    height:70px;
+    width: 70px;
+    margin:30px;
+}
+.iconsHeading{
+    margin-top:10px;
+    width: 45px;
+    height:45px;
+}
+.imgHistory{
+    width: 400px;
+    height:500px;
+}
+.flexHistory{
+    display: flex;
+    margin:20px 0px 0px 70px;
+   
+}
+#flexHistoryBlock div{
+    flex-direction: row;
+    margin:10px;
+    
+}
+#imgHockey{
+    width:800px;
+    height:400px;
+    margin-left:28%;
+}
+
+#introHockey{
+    float:left;
+    font-size:25px;
+    margin-top: -18%;
+    margin-left:25%;
+    font-family:cursive;
+}
+#introHistory{
+    font-size:25px;
+    margin-top:2%;
+    margin-left:4%;
+    color: black;
+
+}
+#imgHockeyLove{
+    width:350px;
+    margin-top:20px;
+    height:400px;
+    float: left;
+    margin-left:5%;
+}
+.fontHeading{
+    margin-top:20px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    width: 95%;
+    margin-left: 2%;
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
+}
+#fieldHockey{
+    width:94%;
+    height:900px;
+    background: lightseagreen;
+    margin: 10px 0px 0px 50px;
+}
+#bandyHockey{
+    width:94%;
+    height:900px;
+    background: lightskyblue;
+    margin: 10px 0px 0px 50px;
+}
+#iceHockey{
+    width:94%;
+    height:900px;
+    background: whitesmoke;
+    margin: 10px 0px 0px 50px;
+}
+.floatLeft{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover{
+    background-color: #111;
+  }
+  .redFont{
+      color: red;
+      margin:20px 0px 0px 10px;
+      font-weight: bold;
+  }
+  .typesHead{
+      font-size:40px;
+      font-weight: bold;
+      text-align: center;
+      margin:20px;
+      background: salmon;
+      width: 96%;
+      border-radius: 5px;
+  }
+  .imgTypesHockey{
+      width:400px;
+      height:300px;
+      margin:40px 0px 60px 40px;
+  }
+  .fontSizeTypes{
+      font-size:25px;
+  }
+  .tableRanking{
+      border:1px solid black;
+      width:150px;
+      height:80px;
+      text-align: center;
+      border-collapse: collapse;
+  }
+  #marginLeftRanking{
+      margin-left: 40px;
+  }
+ .fontBold{
+     font-weight: bold;
+ }
+ .clearBoth{
+clear: both;
+ }
+ #gridGallery1{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 390px 390px 390px 390px;
+    grid-template-rows: 500px ; 
+    background: white;
+    margin:50px 0px 0px 100px;
+  }
+  #gridGallery1 div {
+    background:white; 
+    margin:10px;
+    border-radius:5px; 
+ }
+ #gridGallery2{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 390px 390px 390px 390px;
+    grid-template-rows: 500px ; 
+    background: white;
+    margin:50px 0px 0px 100px;
+  }
+  #gridGallery2 div {
+    background:white; 
+    margin:5px;
+    border-radius:5px; 
+ }
+ .imgGallery{
+     height:490px;
+     width:380px;
+ }
+ #gridGallery3{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 390px 390px 390px 390px;
+    grid-template-rows: 500px ; 
+    background: white;
+    margin:50px 0px 0px 100px;
+  }
+ #gridGallery3 div {
+    background:white; 
+    margin:5px;
+    border-radius:5px; 
+ }
+ @media (max-width:660px){
+     #gridGallery1{
+         display:flex;
+         flex-direction:column;
+     }
+     #gridGallery2{
+        display:flex;
+        flex-direction:column;
+    }
+    #gridGallery3{
+        display:flex;
+        flex-direction:column;
+    }
+    .iconsHeading{
+        width:20px;
+        height:20px;
+
+    }
+    #imgHockey{
+        width:600px;
+        margin:0%;
+    }
+    #imgHockeyLove{
+        width:150px;
+
+    }
+    #introHockey{
+        font-size:16px;
+        margin-top:-300px;
+        margin-left:180px;
+    }
+    #introHistory{
+        font-size:16px;
+    }
+    #flexHistoryBlock{
+        display:flex;
+        flex-basis:100px;
+        flex-direction:row;
+        margin-left: -1px;
+
+    }
+    .imgTypesHockey{
+        width:230px;
+        height:100px;
+    }
+    .fontSizeTypes{
+     font-size:16px;
+    }
+    .imgHistory{
+        width:130px;
+        height:300px;
+
+    }
+ }
